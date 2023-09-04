@@ -1,0 +1,15 @@
+{
+  "type": "module",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "inquirer": "^9.2.10",
+    "node-fetch": "^2.6.1",
+    "run-func": "^3.0.0"
+  },
+  "scripts": {
+    "a": "run-func index.js add",
+    "r": "run-func index.js remove",
+    "ra": "run-func index.js removeAll",
+    "l": "run-func index.js list"
+ }
+}
